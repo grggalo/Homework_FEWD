@@ -41,3 +41,9 @@ stringLength(hello)
 // So sayHello("Paul") would return "Hello, Paul";
 
 // console.log(sayHello("Paul"));
+
+//add 4 to a number 
+function addFour(addToMe){
+add4toMe = add4ToMe + 4
+    return add4ToMe;
+}
