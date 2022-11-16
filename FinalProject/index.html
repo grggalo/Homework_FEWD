@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <head>
+      </head>
+    <!-- CSS only 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">-->
+
+    <link rel="stylesheet" href="./Final.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<header class="hc-nav">
+    <nav class="hc-nav-left">
+        <a href="./index.html" class="hc-nav-item">
+            <img src="images/DFLogo.png" alt="DFLogo" class="hc-nav-logo">
+        </a>
+        <ul>
+            <li>Help Center</li>
+        </ul>
+    </nav>
+    <nav class="hc-nav-right">
+        <ul>
+            <li><a href="./about.html" class="hc-nav-item">
+                <button class="button-primary" type="button">Submit a ticket</button></a></li>
+            <li><a href="./login.html" class="hc-nav-item">
+                <button class="button-login"type="button"data-bs-toggle="modal" data-bs-target="#exampleModal">Sign in</button></a></li> 
+        </ul>
+    </nav>
+</header>
+ 
+<!-- Modal 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sign in</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+   <!-- Yellow Banner Bar-->
+<section>
+<div class="container-ann-top">
+    <div class="container-ann-inner"><section class="announcements" id="announcements"><p class="text-center-ann-top announcements_description-top"><strong>Emergency Announcements</strong></p></section></div>
+</section>
+
+   <!-- Teal All Systems Operational bar-->
+<section>
+    <div class="container-ann">
+        <div class="container-inner">
+          <section class="announcements" id="announcements"> <h3 class="text-center announcements__title"></h3> 
+            <p class="text-center-ann announcements__description"><strong>All Systems Operational</strong><a href="https://drfirst.statuspage.io/"></a>
+</section>
+
+   <!-- Customer Support Search bar-->
+<section>
+    <div class="container-ann-hero">
+        <div class="container-inner"><section class="announcements" id="announcements">
+        <div class="inset-div">
+        <h2>Customer Support</h2>
+        <p>What can we help you find?</p>
+        <button class ="button-rectangle" type="button">Insert search terms here</button>
+        <button class="button-hero"               
+        type="button">Search</button>
+      </div>
+    </div>
+</section>
+</section>   
+
+   <!-- Product Grid-->
+<main class="product-grid">
+    <article class="product-grid-item">
+        <div class="product-category"></div>
+        <ul class="product-info">
+            <li class="product-name"><h1>Rcopia</h1> <img class="logo-png" src="images/RcopiaLogo.png"></li>
+            <li class="product-headline"></li>
+            <li>
+                <tagline class="product-tagline">
+                    E-prescribing with Med History
+                </tagline>
+            </li>
+        </ul>
+    </article>
+
+    <article class="product-grid-item">
+        <div class="product-category"></div>
+        <ul class="product-info">
+            <li class="product-name"><h1>iPrescribe</h1> <img class="logo-png" src="images/iPrescribeLogo.png"></li>
+            <li class="product-headline"></li>
+            <li><tagline class="product-tagline">
+                    Mobile E-prescribing 
+                </tagline>
+            </li>
+        </ul>
+    </article>
+
+        <article class="product-grid-item">
+        <div class="product-category"></div>
+        <ul class="product-info">
+            <li class="product-name"><h1>EPCSGold</h1> <img class="logo-png" src="images/EPCSLogo.png"></li>
+            <li class="product-headline"></li>
+            <li>
+                <tagline class="product-tagline">
+                    Controlled Substances & PDMP
+                </tagline>
+            </li>
+        </ul>
+    </article>
+
+    <article class="product-grid-item">
+        <div class="product-category"></div>
+        <ul class="product-info">
+            <li class="product-name"><h1>Backline</h1> <img class="logo-png" src="images/BacklineLogo.png"></li>
+            <li class="product-headline"></li>
+            <li>
+                <tagline class="product-tagline">
+                    Secure Collaboration
+                </tagline>
+            </li>
+        </ul>
+    </article>
+
+    <article class="product-grid-item">
+        <div class="product-category"></div>
+        <ul class="product-info">
+            <li class="product-name"><h1>MedHx</h1> <img class="logo-png" src="images/MedHxLogo.png"></li>
+            <li class="product-headline"></li>
+            <li>
+                <tagline class="product-tagline">
+                    Medication History
+                </tagline>
+            </li>
+        </ul>
+    </article>
+
+    <article class="product-grid-item">
+        <div class="product-category"></div>
+        <ul class="product-info">
+            <li class="product-name"><h1>RxInform</h1> <img class="logo-png" src="images/RxInformLogo.png"></li>
+            <li class="product-headline"></li>
+            <li>
+                <tagline class="product-tagline">
+                    Adherence Solutions
+                </tagline>
+            </li>
+        </ul>
+    </article>
+
+    <article class="product-grid-item">
+        <div class="product-category"></div>
+        <ul class="product-info">
+            <li class="product-name"><h1>Ticket Help</h1> <img class="logo-png" src="images/TicketLogo.png"></li>
+            <li class="product-headline"></li>
+            <li>
+                <tagline class="product-tagline">
+                    Help Desk Resources
+                </tagline>
+            </li>
+        </ul>
+    </article>
+
+    <article class="product-grid-item">
+        <div class="product-category"></div>
+        <ul class="product-info">
+            <li class="product-name"><h1>Agents</h1> <img class="logo-png" src="images/AgentsLogo.png"></li>
+            <li class="product-headline"></li>
+            <li>
+                <tagline class="product-tagline">
+                    Training
+                </tagline>
+            </li>
+        </ul>
+    </article>
+</main>
+
+<!-- Footer-->
+
+<footer class="trulia-site-footer">
+    <ul class="footer-links">
+        <li><a href="">Copyright DrFirst©</a></li>
+        <li><a href="https://www.facebook.com/DrFirstInc">FB</a></li>
+        <li><a href="https://twitter.com/DrFirst">Twitter</a></li>
+        <li><a href="https://www.youtube.com/c/drfirst">YT</a></li>
+        <li><a href="https://www.linkedin.com/company/drfirst">LI</a></li>
+        <li><a href="https://www.instagram.com/drfirst_inc">IG</a></li>
+    </ul>
+</footer>
+
+<body>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
+
+<script src="login.js"></script>  
+</body>
+</html>
